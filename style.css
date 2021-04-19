@@ -32,21 +32,21 @@ header{
     position:sticky;
     position: -webkit-sticky;
     top: 0px;
-    border-bottom: 5px solid #6b705c;
-    border-top: 5px solid #6b705c;
+    border-bottom: .5vh solid #6b705c;
+    border-top: .5vh solid #6b705c;
 }
 
 #menu ul{
-    padding-left: 30px;
+    padding-left: 1cm;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 30px;
+    padding-right: 1cm;
     margin: 0;
 }
 
 #menu li{
     display: inline;
-    font-size: 20px;
+    font-size: 16pt;
     margin: 0px;
 }
 
