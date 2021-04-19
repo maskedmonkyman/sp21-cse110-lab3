@@ -75,6 +75,8 @@ header{
     margin: 2% 30% 2% 30%;
     padding: 10px;
     background-color: #b7b7a4;
+    min-width: 300px;
+    max-width: 500px;
 }
 
 .bulletin h3{
@@ -92,4 +94,32 @@ footer{
     text-align: center;
     padding: 20px;
     margin: auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #b7b7a4;
+    margin: 2% 30% 2% 30%;
+    border: 5px solid #6b705c;
+    border-radius: 5px;
+}
+
+.flex-item{
+    background-color: #a5a58d;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.flex-item-grow{
+    flex-grow: 1.5;
+    background-color: #cb997e;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 5px;
 }
