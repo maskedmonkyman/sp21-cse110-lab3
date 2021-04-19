@@ -1,5 +1,4 @@
 /*hey look it's a comment*/
-/*I hated the old page so I made a new one*/
 
 *{
     color: hsl(0, 0%, 0%);
@@ -143,19 +142,22 @@ header{
     margin-bottom: 20px;
 }
 
+.grid-item{
+    background-color: #cb997e
+}
 .grid-item-a{
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
     background-color: #cb997e;
 }
 
-.grid-item-b{
+.grid-item.b{
     grid-column: c3/c3;
     grid-row: r3/r3;
     background-color: #a5a58d;
 }
 
-.grid-item-c{
+.grid-item.c{
     grid-column: c1/c1;
     grid-row: r3/r3;
     background-color: #a5a58d;
@@ -168,3 +170,24 @@ footer{
     padding: 20px;
     margin: auto;
 }
+
+h4 ~ p {
+    color: blue;
+}
+
+p + p {
+    color: red;
+}
+
+.top-descendant {
+    width: 300;
+    height: 150;
+    background-color: blue;
+}
+  
+.top-descendant .bot-descendant {
+    width: 200;
+    height: 100;
+    background-color: red;
+}
+  
