@@ -1,0 +1,95 @@
+/*hey look it's a comment*/
+/*I hated the old page so I made a new one*/
+
+*{
+    color: #000000;
+}
+
+body{
+    background-color: #ffe8d6;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #a5a58d;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family:'Limelight', cursive;
+}
+
+#menu{
+    text-align: left;
+    background-color: #cb997e;
+    margin: 0px 0px 0px 0px;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    border-bottom: 5px solid #6b705c;
+    border-top: 5px solid #6b705c;
+}
+
+#menu ul{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin: 0;
+}
+
+#menu li{
+    display: inline;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.list-pipe > li:not(:last-child)::after{
+    content: "|";
+    margin: 0 .25em;
+    color: white;
+}
+
+.bulletin{
+    border-style:solid;
+    border-color: #6b705c;
+    color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 2% 30% 2% 30%;
+    padding: 10px;
+    background-color: #b7b7a4;
+}
+
+.bulletin h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text-container{
+    margin: 5% 5% 20% 5%;
+}
+
+footer{
+    background: rgb(100, 100, 100);
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
