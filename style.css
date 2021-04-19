@@ -25,11 +25,21 @@ header{
     font-family:'Limelight', cursive;
 }
 
+@media (max-width: 640px){
+    #menu{
+        display: none;
+        /*
+        for some reason this doesn't work
+        position: static
+        */
+    }
+}
+
 #menu{
     text-align: left;
     background-color: #cb997e;
     margin: 0px 0px 0px 0px;
-    position:sticky;
+    position: sticky;
     position: -webkit-sticky;
     top: 0px;
     border-bottom: .5vh solid #6b705c;
